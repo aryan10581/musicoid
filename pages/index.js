@@ -124,7 +124,7 @@ export default function Home({ song }) {
 
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch("http://localhost:3000/api/hello")
   const data = await res.json()
   return {
