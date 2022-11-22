@@ -124,8 +124,17 @@ export default function Home({ song }) {
 
 }
 
+// export async function getStaticProps() {
+//   const res = await fetch("https://enchanting-kangaroo-c2a4f5.netlify.app/api/hello")
+//   const data = await res.json()
+//   return {
+//     props: {
+//       song: data
+//     }
+//   }
+// }
 export async function getStaticProps() {
-  const res = await fetch("https://enchanting-kangaroo-c2a4f5.netlify.app/api/hello")
+  const res = await fetch("https://musicoid.netlify.app/api/hello")
   const data = await res.json()
   return {
     props: {
