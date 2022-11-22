@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild":"next-on-netlify"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.4.1",
@@ -19,6 +20,7 @@
     "eslint-config-next": "13.0.4",
     "framer-motion": "^6.5.1",
     "next": "13.0.4",
+    "next-on-netlify": "^3.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
