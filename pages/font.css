@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.russo{
+    font-family: 'Russo One', sans-serif;
+}
+audio::-webkit-media-controls-panel{
+    background: linear-gradient(rgb(0, 184, 190),rgb(132, 210, 255));
+}
+audio{
+    width: 100vw;
+    justify-self: right;
+}
+::-webkit-scrollbar{
+    width: 0.5vw;
+    background: rgb(0, 118, 122);
+    border-radius: 8px;
+
+}

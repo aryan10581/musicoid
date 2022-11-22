@@ -1,0 +1,22 @@
+{
+    "songs":[
+    {
+        "id":1,
+        "song":"Illahi",
+        "img":"/Songs/img/illahi.jpg",
+        "audio":"/Songs/MP3/Illahi.mp3",
+        "duration":"3:23",
+        "author":"Roy"
+    },
+  {
+        "id":2,
+        "song":"Sooraj Dooba Hai",
+        "img":"/Songs/img/illahi.jpg",
+        "audio":"/Songs/MP3/SoorajDoobaHain.mp3",
+        "duration":"4:07",
+        "author": "Arijit Singh"
+
+    }
+
+]
+}
